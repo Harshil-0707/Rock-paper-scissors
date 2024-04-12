@@ -37,8 +37,8 @@ h1 {
 main {
   display: flex;
   align-items: center;
+  padding-bottom: 5.9rem;
   flex-direction: column;
-  padding-bottom: 1.95rem;
 }
 
 .mainHead {
@@ -47,7 +47,6 @@ main {
   margin-top: 2.4rem;
   line-height: 2.5rem;
   color: var(--white);
-  /* font-family: ; */
 }
 
 .mainHead div {
@@ -107,6 +106,8 @@ main {
 /* popup */
 
 #overlayPopup {
+  width: 100%;
+  height: 100%;
   display: none;
 }
 
@@ -142,9 +143,7 @@ button:hover {
 .active #overlay {
   inset: 0;
   z-index: 1;
-  width: 100%;
   opacity: 0.4;
-  height: 100%;
   position: absolute;
   background-color: #000;
 }
